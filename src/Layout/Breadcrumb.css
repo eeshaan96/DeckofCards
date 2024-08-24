@@ -1,0 +1,41 @@
+/* Breadcrumb.css */
+.breadcrumb {
+    font-size: 14px;
+    background-color: #f8f9fa; /* Light background color for the entire breadcrumb bar */
+    padding: 4px;
+    margin-bottom: 20px;
+  }
+  
+  .breadcrumb ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+  }
+  
+  .breadcrumb li {
+    margin-right: 0;
+    display: inline;
+    background-color: transparent;
+    border: none;
+  }
+  
+  .breadcrumb a {
+    text-decoration: none;
+    color: #007bff; /* Blue color for the breadcrumb links */
+  }
+  
+  .breadcrumb a:hover {
+    text-decoration: underline;
+  }
+  
+  .breadcrumb .separator {
+    margin: 0 5px;
+    color: #6c757d; /* Color for the separators */
+  }
+  
+  .breadcrumb .active {
+    color: #6c757d; /* Color for the current page item */
+  }
+  

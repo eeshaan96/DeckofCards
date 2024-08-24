@@ -1,0 +1,31 @@
+/* Button styles for the deck and card actions */
+.study-button, .edit-card-button, .delete-card-button {
+    padding: 0.5rem 1rem; /* Padding inside the button */
+    border: none; /* Remove default border */
+    border-radius: 4px; /* Rounded corners for the button */
+    font-size: 1rem; /* Font size for the button */
+    cursor: pointer; /* Pointer cursor on hover */
+    margin-right: 0.5rem; /* Space between buttons */
+    color: white; /* Text color */
+}
+
+.edit-card-button {
+    background-color: #28a745; /* Green background color */
+}
+
+.edit-card-button:hover {
+    background-color: #218838; /* Darker green on hover */
+}
+
+.delete-card-button {
+    background-color: #dc3545; /* Red background color */
+}
+
+.delete-card-button:hover {
+    background-color: #c82333; /* Darker red on hover */
+}
+
+/* Container for card actions */
+.card-actions {
+    margin-top: 0.5rem;
+}

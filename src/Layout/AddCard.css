@@ -1,0 +1,63 @@
+/* Container for the card creation form */
+.create-card-container {
+    width: 100%;
+    max-width: 600px; /* Set a maximum width for the form container */
+    margin: auto; /* Center the form horizontally */
+    padding: 1rem; /* Add padding around the form */
+}
+
+/* Style the form itself */
+.create-card-form {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Style for each form group */
+.create-card-form .form-group {
+    margin-bottom: 1rem; /* Space between form groups */
+}
+
+/* Style input and textarea to have consistent width and appearance */
+.create-card-form input[type="text"],
+.create-card-form textarea {
+    width: 100%; /* Full width of the container */
+    padding: 0.5rem; /* Padding for better spacing */
+    font-size: 1rem; /* Font size for readability */
+    border: 1px solid #ccc; /* Border for the fields */
+    border-radius: 4px; /* Rounded corners for the fields */
+}
+
+/* Style textarea specifically to ensure consistent height */
+.create-card-form textarea {
+    min-height: 150px; /* Set a minimum height for the textarea */
+    resize: vertical; /* Allow only vertical resizing */
+}
+
+/* Style the form buttons */
+.create-card-form .form-buttons {
+    margin-top: 1rem; /* Space above the buttons */
+    display: flex;
+    justify-content: space-between; /* Space buttons out */
+}
+
+/* Style for submit button */
+.create-card-form .submit-button {
+    padding: 0.5rem 1rem; /* Padding inside the button */
+    border: none; /* Remove default border */
+    border-radius: 4px; /* Rounded corners for the button */
+    font-size: 1rem; /* Font size for the button */
+    cursor: pointer; /* Pointer cursor on hover */
+    background-color: #007bff; /* Background color */
+    color: white; /* Text color */
+}
+
+/* Style for cancel button */
+.create-card-form .cancel-button {
+    padding: 0.5rem 1rem; /* Padding inside the button */
+    border: none; /* Remove default border */
+    border-radius: 4px; /* Rounded corners for the button */
+    font-size: 1rem; /* Font size for the button */
+    cursor: pointer; /* Pointer cursor on hover */
+    background-color: #6c757d; /* Background color */
+    color: white; /* Text color */
+}
